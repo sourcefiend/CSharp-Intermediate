@@ -1,0 +1,11 @@
+C:\Users\robert.smolcic\source\repos\Classes\bin\Debug\netcoreapp2.1\Classes.deps.json
+C:\Users\robert.smolcic\source\repos\Classes\bin\Debug\netcoreapp2.1\Classes.runtimeconfig.json
+C:\Users\robert.smolcic\source\repos\Classes\bin\Debug\netcoreapp2.1\Classes.runtimeconfig.dev.json
+C:\Users\robert.smolcic\source\repos\Classes\bin\Debug\netcoreapp2.1\Classes.dll
+C:\Users\robert.smolcic\source\repos\Classes\bin\Debug\netcoreapp2.1\Classes.pdb
+C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.csprojAssemblyReference.cache
+C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.csproj.CoreCompileInputs.cache
+C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.AssemblyInfoInputs.cache
+C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.AssemblyInfo.cs
+C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.dll
+C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.pdb
