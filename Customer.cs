@@ -5,7 +5,7 @@ using System.Text;
 namespace Classes
 {
     public class Customer
-    {
+    { 
         public int Id;
         public string Name;
         public List<Order> Orders; // This has to be initialized, because the default value will be null, and we would get a null reference.

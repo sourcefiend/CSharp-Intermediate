@@ -65,6 +65,15 @@ namespace Classes
             else
                 Console.WriteLine("Conversion failed.");
 
+            var customer_two = new CustomerTwo(1);
+
+            customer_two.Orders.Add(new OrderTwo());
+            customer_two.Orders.Add(new OrderTwo());
+
+            customer_two.Promote();
+
+            Console.WriteLine(customer_two.Orders.Count);
+
 
         }
 
