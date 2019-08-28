@@ -74,6 +74,10 @@ namespace Classes
 
             Console.WriteLine(customer_two.Orders.Count);
 
+            var person_two = new PersonTwo();
+            person_two.SetBirthdate(new DateTime(1982, 1, 1));
+            Console.WriteLine(person_two.GetBirthdate());
+
 
         }
 
