@@ -81,6 +81,10 @@ namespace Classes
             var person_three = new PersonThree(new DateTime(1982, 1, 1));
             Console.WriteLine(person_three.Age);
 
+            var cookie = new HttpCookie();
+            cookie["name"] = "mosh";
+            Console.WriteLine(cookie["name"]);
+
 
         }
 
