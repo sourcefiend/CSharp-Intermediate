@@ -78,6 +78,9 @@ namespace Classes
             person_two.SetBirthdate(new DateTime(1982, 1, 1));
             Console.WriteLine(person_two.GetBirthdate());
 
+            var person_three = new PersonThree(new DateTime(1982, 1, 1));
+            Console.WriteLine(person_three.Age);
+
 
         }
 
