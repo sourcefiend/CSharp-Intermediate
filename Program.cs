@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Timers;
 
 namespace Classes
 {
@@ -72,20 +73,36 @@ namespace Classes
 
             customer_two.Promote();
 
-            Console.WriteLine(customer_two.Orders.Count);
+            //Console.WriteLine(customer_two.Orders.Count);
 
             var person_two = new PersonTwo();
             person_two.SetBirthdate(new DateTime(1982, 1, 1));
-            Console.WriteLine(person_two.GetBirthdate());
+            //Console.WriteLine(person_two.GetBirthdate());
 
             var person_three = new PersonThree(new DateTime(1982, 1, 1));
-            Console.WriteLine(person_three.Age);
+            //Console.WriteLine(person_three.Age);
 
             var cookie = new HttpCookie();
             cookie["name"] = "mosh";
-            Console.WriteLine(cookie["name"]);
+            //Console.WriteLine(cookie["name"]);
 
+            var stopwatch = new Stopwatch();
 
+            while (true)
+            {
+                Console.WriteLine("Type in any key to exit or hit ENTER to start a new session");
+                var input = Console.ReadLine();
+                if (input == "")
+                {
+                    stopwatch.Start();
+
+                    Console.WriteLine("Stopwatch started. Press ENTER to stop.");
+                    Console.ReadLine();
+                    stopwatch.Stop();
+                }
+                else
+                    break;
+            }
         }
 
         static void UseParams()
