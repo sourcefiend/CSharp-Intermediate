@@ -88,21 +88,34 @@ namespace Classes
 
             var stopwatch = new Stopwatch();
 
-            while (true)
-            {
-                Console.WriteLine("Type in any key to exit or hit ENTER to start a new session");
-                var input = Console.ReadLine();
-                if (input == "")
-                {
-                    stopwatch.Start();
+            //while (true)
+            //{
+            //    Console.WriteLine("Type in any key to exit or hit ENTER to start a new session");
+            //    var input = Console.ReadLine();
+            //    if (input == "")
+            //    {
+            //        stopwatch.Start();
 
-                    Console.WriteLine("Stopwatch started. Press ENTER to stop.");
-                    Console.ReadLine();
-                    stopwatch.Stop();
-                }
-                else
-                    break;
-            }
+            //        Console.WriteLine("Stopwatch started. Press ENTER to stop.");
+            //        Console.ReadLine();
+            //        stopwatch.Stop();
+            //    }
+            //    else
+            //        break;
+            //}
+
+            var post_one = new Exercises.Post("Problem with Python", "I can't log in to my application with Python", DateTime.Now);
+
+            post_one.Upvote();
+            post_one.Upvote();
+            post_one.Downvote();
+
+            Console.WriteLine(post_one.CurrentVoteValue);
+
+            post_one.Downvote();
+            post_one.Downvote();
+
+            Console.WriteLine(post_one.CurrentVoteValue);
         }
 
         static void UseParams()
