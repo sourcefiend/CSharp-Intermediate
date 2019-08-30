@@ -34,6 +34,7 @@ namespace Classes
             return sum;
         }
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -116,6 +117,10 @@ namespace Classes
             post_one.Downvote();
 
             Console.WriteLine(post_one.CurrentVoteValue);
+
+            var text = new Text();
+            text.Width = 100;
+            text.Copy();
         }
 
         static void UseParams()
