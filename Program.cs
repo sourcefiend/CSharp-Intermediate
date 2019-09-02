@@ -1,39 +1,7 @@
 ﻿using System;
-using System.Timers;
 
 namespace Classes
 {
-    public class Person
-    {
-        public string Name;
-
-        public void Introduce(string to)
-        {
-            Console.WriteLine("Hi {0}, I am {1}", to, Name);
-        }
-
-        public static Person Parse(string str)
-        {
-            var person = new Person();
-            person.Name = str;
-
-            return person;
-        }
-    }
-
-    public class Calculator
-    {
-        public int Add(params int[] numbers)
-        {
-            var sum = 0;
-            foreach (var number in numbers)
-            {
-                sum += number;
-            }
-
-            return sum;
-        }
-    }
 
     class Program
     {
@@ -129,6 +97,11 @@ namespace Classes
 
             dbMigrator.Migrate();
             installer.Install();
+
+            var client = new Amazon.Client();
+
+            
+
         }
 
         static void UseParams()
