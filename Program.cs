@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Classes
 {
@@ -85,9 +88,9 @@ namespace Classes
 
             Console.WriteLine(post_one.CurrentVoteValue);
 
-            var text = new Text();
-            text.Width = 100;
-            text.Copy();
+            //var text = new Text();
+            //text.Width = 100;
+            //text.Copy();
 
             var dbMigrator = new DBMigrator(new Logger());
 
@@ -100,8 +103,12 @@ namespace Classes
             //var client = new Amazon.Client();
 
             var car = new Car("XYZ1234");
-            
 
+            //StreamReader reader = new StreamReader(new MemoryStream());
+
+            Shape shape = new ShapeText();
+            ShapeText text = (ShapeText)shape;
+            
         }
 
         static void UseParams()
