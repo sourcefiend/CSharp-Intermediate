@@ -108,6 +108,15 @@ namespace Classes
 
             Shape shape = new ShapeText();
             ShapeText text = (ShapeText)shape;
+
+            var list = new ArrayList();
+            list.Add(1);
+            list.Add("Mosh");
+            list.Add(DateTime.Today);
+
+            var anotherList = new List<int>();
+
+            var names = new List<string>();
             
         }
 
