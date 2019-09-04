@@ -9,6 +9,3 @@ C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.Ass
 C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.AssemblyInfo.cs
 C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.dll
 C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.pdb
-C:\Users\robert.smolcic\source\repos\Classes\bin\Debug\netcoreapp2.1\Amazon.dll
-C:\Users\robert.smolcic\source\repos\Classes\bin\Debug\netcoreapp2.1\Amazon.pdb
-C:\Users\robert.smolcic\source\repos\Classes\obj\Debug\netcoreapp2.1\Classes.csproj.CopyComplete

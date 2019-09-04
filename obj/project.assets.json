@@ -207,16 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Amazon/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Amazon.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Amazon.dll": {}
-        }
       }
     }
   },
@@ -690,16 +680,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Amazon/1.0.0": {
-      "type": "project",
-      "path": "../Amazon/Amazon.csproj",
-      "msbuildProject": "../Amazon/Amazon.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Amazon >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -735,11 +719,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\Users\\robert.smolcic\\source\\repos\\Amazon\\Amazon.csproj": {
-              "projectPath": "C:\\Users\\robert.smolcic\\source\\repos\\Amazon\\Amazon.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

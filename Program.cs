@@ -2,7 +2,6 @@
 
 namespace Classes
 {
-
     class Program
     {
         static void Main(string[] args)
@@ -98,8 +97,9 @@ namespace Classes
             dbMigrator.Migrate();
             installer.Install();
 
-            var client = new Amazon.Client();
+            //var client = new Amazon.Client();
 
+            var car = new Car("XYZ1234");
             
 
         }
