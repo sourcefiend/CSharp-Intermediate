@@ -133,6 +133,14 @@ namespace Classes
 
             var rectangle = new Rectangle();
             rectangle.Draw();
+
+            // This is the database exercise
+            Console.WriteLine("\n");
+
+            var database = new OracleConnection("SQL connection string");
+            var command = new DbCommand(database, "This is my test string");
+
+            command.Execute();
         }
 
         static void UseParams()
