@@ -141,6 +141,11 @@ namespace Classes
             var command = new DbCommand(database, "This is my test string");
 
             command.Execute();
+
+            var workflow_engine = new WorkflowEngine();
+            workflow_engine.AddWorkflowObject(new VideoEngine());
+            workflow_engine.AddWorkflowObject(new SmsEngine());
+            workflow_engine.Run();
         }
 
         static void UseParams()
